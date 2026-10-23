@@ -1,0 +1,37 @@
+body{
+    /* 1. Add the image URL */
+    background-image: url("bus.jpg");
+
+    /* 2. Set dimensions so the element is visible */
+    width: auto;
+    height: 800px;
+
+    /* 3. Prevent the image from repeating if it is smaller than the container */
+    background-repeat: no-repeat;
+
+    /* 4. Scale the image to perfectly fill the container without stretching */
+    background-size: cover;
+
+    /* 5. Keep the image centered within the element */
+    background-position: center;
+}
+h1{
+    
+    
+    display: flex;
+    margin-bottom: auto;
+    margin-top: 150PX;
+    align-items: center;
+    justify-content: center;
+    
+    font-family: 'Open Sans', sans-serif;
+
+    font-weight: bold;
+    font-size: 150px;
+
+    color: #E9C46A;  
+   
+    text-shadow: 5px 5px black;
+    font-family: 'Courier New', monospace;
+    
+}
